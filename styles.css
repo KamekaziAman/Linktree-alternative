@@ -119,3 +119,14 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Button Hover Effect */
+.button {
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 0px black;
+}
+
